@@ -10,14 +10,12 @@ void print_line(int n)
 	char ch;
 	int i;
 
-	ch = '_';
-
 	for (i = 0; i <= n; i++)
 	{
 		if (n <= 0)
 		{
 			_putchar('\n');
 		}
-		_putchar(ch);
+		_putchar('_');
 	}
 }
