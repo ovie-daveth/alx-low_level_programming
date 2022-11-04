@@ -8,8 +8,9 @@
  * @argv: names of argument
  * Return: 0 always for success
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("The name of my fuction is %s \n", argv[1]);
+	printf("%s\n", *argv);
+
 	return (0);
 }
